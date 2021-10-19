@@ -1,7 +1,7 @@
 # Tutorial for BiCoN package
 1. Download this repository to your computer
 2. Create a folder "data" inside and download there everything from this folder https://drive.google.com/drive/folders/1M_cYMbIvPhHoPe5rayqjTxFa3Vo0af8w?usp=sharing
-3. Create environment will the nessesary packages with the following command
+3. Create an environment with the necessary packages with the following command
 ```{bash}
 conda env create -f environment.yml
 ```
@@ -18,4 +18,4 @@ python -m ipykernel install --user --name=bicon_env
 ```{bash}
 jupyter notebook
 ```
-7. Open notebook_ht and make sure that you are connected to `bicon_env`, alternatevely go to `Kernel` > `Change kernel` > `bicon_env`
+7. Open notebook_ht and make sure that you are connected to `bicon_env`, alternatively go to `Kernel` > `Change kernel` > `bicon_env`
