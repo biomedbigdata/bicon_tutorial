@@ -60,7 +60,9 @@ For instance:
 | 6416 | 5932 |
 | 6416 | 1956 |
 
-**BiCoN does not care about gene IDs as long as they are the same for both gene expression and the PPI network**
+**BiCoN does not care about gene IDs as long as they are the same for both gene expression and the PPI network.**
+
+
 So, if you do not have a PPI network you want to use or your network has gene IDs that are different from the ones in your expression data, please do the following:
 In the working directory of the tutorial run
 
