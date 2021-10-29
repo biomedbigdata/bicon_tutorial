@@ -15,6 +15,17 @@ If you do not have conda, follow the instruction here for the installation https
 ```{bash}
 conda env create -f environment.yml
 ```
+If you get an error like this: 
+
+```
+ResolvePackageNotFound: 
+
+  - jedi==0.18.0=py38h06a4308_1
+
+  - libgcc-ng==9.1.0=hdf63c60_0
+```
+Then just open the  environment.yml with any text editor and manually remove all packages that are listed as not founded in the error message.
+
 
 5. Activate the environment
 ```{bash}
